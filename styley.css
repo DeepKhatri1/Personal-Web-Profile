@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background: #080808;
+	color: #fff;
+}
+
+
+.container{
+	padding: 10px 10%;
+}
+/*nav{
+	display: flex; */  /*----to keep profile and link side by side-----*/
+/*	align-items: center; */  /*------to bring profile and link in centre relative to itself--------*/
+/*	justify-content: space-between;*/ /*-------------------to keeep space between profile and link---------------*/
+/*	flex-wrap: wrap;
+}
+.logo{
+	width: 140px;
+}
+nav ul li{
+	display: inline-block;*/ /*---------------for making horizontally align-------------*/
+	/*list-style: none;*/ /*-------------IDK why?---------------*/
+/*	margin: 10px 20px;*//*------------10px from top and buttom and 20px from left and right-------------*/
+/*}
+nav ul li a{
+	color: white;
+	text-decoration: */none;/*---------------- for removing underline-----------------*/
+/*	font-size: 18px;
+}
+.navbar .logo a{
+	color: white;
+	font-size: 35px;
+	font-weight: 600;
+	transition: all 0.3s ease;
+	text-decoration: none;
+
+}
+.navbar .logo a span{
+	color: crimson;
+}*/
+
+nav{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.logo{
+	width: 140px;
+	padding-left: 0px;
+}
+.logo a{
+	color: white;
+	text-decoration: none;
+	font-size: 35px;
+	font-weight: 600;
+}
+.logo a span{
+	color: crimson;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	position: relative;
+
+}
+
+nav ul li a:hover{
+	color: #ff004f;
+}
+
+
+
+
+
+
+
+
+
+
+#about{
+	padding: 80px 0;
+	color: #ababab;
+
+}
+.sub-titles{
+	padding-top: 60px;
+	font-size: 50px;
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 40px;
+}
+.about-col-1{
+	flex-basis: 40%;
+}
+.about-col-1 img{
+	width: 100%;
+	border-radius: 15px;
+
+}
+.about-col-2{
+	width: 55%;
+}
+.sub-title{
+	font-size: 40px;
+	font-weight: 600;
+	color: white;
+	padding-top: 0px;
+}
+.AM{
+	padding-top: 10px;
+}

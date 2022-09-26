@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Profile -Deep Khatri</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/f36e79edc0.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/a076do5399.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+</head>
+<body>
+<div id="header">
+	<div class="container">
+		<nav class="navbar">
+			<div class="logo"><a href="index.html">Pro<span>file.</span></a></div>
+			<img src="">
+			<ul id="sidemenu">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#Services">Services</a></li>
+				<li><a href="#portfoilo">Project</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+			</ul>
+			<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+		</nav>
+		<div class="header-text">
+			<div class="text-1">Привет, меня зовут</div>
+			<div class="text-2">Deep Khatri</div>
+			<div class="text-3">Thanks <span>For Visiting</span></div>
+		</div>
+	</div>
+</div>
+<!-- About wala session ho yaha baata -->
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1"><img src="images/WEBpcs2.jpg"></div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p class="AM">I am teen curently studying Bacholer of Science in Information Technology (BSc.IT)
+				at ISMT collage with Computer Network as my major field and I am also working part-time at nepguru.com. 
+				Talking about my hobbies I would like to avoid boredom by becoming a cyclist or a sketch artist. Below I have presented more detail about
+				myself and how I may be useful to you. And BTW if you just want to reach out to me, message me below.</p>
+
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('experience')">Experience</p>
+					<p class="tab-links" onclick="opentab('education')">Education</p>
+				</div>
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li><span><b>Web Development</b></span><br>Intemdate level via HTML, CSS, J.S. and PHP</li>
+						<li><span><b>Sketch Artst</b></span><br>I am good graphite sketch.</li>
+						<li><span><b>AWS Cloud Practitioner</b></span><br>Just a beginner in this field. Enrlled recently</li>
+						<li><span><b>CCNA</b></span><br>Have got fundamental knowledge in it.</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="experience">
+					<ul>
+						<li><span><b>2021-Present</b></span><br>Computer Hardware Troubleshooting</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="education">
+					<ul>
+						<li><span><b>BSc.IT</b></span><br>University Of Sunderland(2021-Present)</li>
+						<li><span><b>+2 in Science</b></span><br>Nepal Mega Collage</li>
+						<li><span><b>SEE</b></span><br>Awareness International Academy (A.I.A)</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Services sector -->
+<div id="Services">
+	<div class="container">
+		<h1 class="sub-title">My Services/Skills</h1>
+		<div class="services-list">
+			<div>
+				<i class="fa-solid fa-palette"></i>
+				<h2><b>Graphite Sketch Art</b></h2>
+				<p>I am good at art since childhood but been serious about it since covid lockdown. 
+				Here are some of my recent work. If you want yours or someone else sketch to be done message me below.</p>
+				<a href="L_more.html">Learn More</a>
+			</div>
+			<div>
+				<i class="fa-sharp fa-solid fa-code"></i>
+				<h2><b>Web Design</b></h2>
+				<p>I have Intermediate level knowledge at Web Designing via HTML, CSS, Java Script. Here are some of my recent 
+				works. If you want to hire me as a intern message me below or e-mail me.</p>
+				<a href="L_web.html">Learn More</a>
+			</div>
+			<div>
+				<i class="fa-brands fa-aws"></i>
+				<h2><b>AWS Cloud Practitioner</b></h2>
+				<p>Just got enrolled in this course and learning as much as I can. Here are some of my recent 
+				works. If you want to hire me as a intern message me below or e-mail me.</p>
+				<a href="L_aws.html">Learn More</a>
+			</div>
+			<div>
+				<i class="fa-solid fa-network-wired"></i>
+				<h2><b>CCNA/TND</b></h2>
+				<p>I am learning this course in my collage and I have acquired most of the fundational knowledge 
+				on this topic. Here are some of my recent 
+				works. If you want to hire me as a intern message me below or e-mail me.</p>
+				<a href="L_net.html">Learn More</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ----------------------Project---------------------------- -->
+<div id="portfoilo">
+	<div class="container">
+		<h1 class="sub-title">My Project</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/WEBpcs3.2.jpg">
+				<div class="layer">
+					<h3>Demo Website for Municipality</h3>
+					<p>Website is not hosted but you can see the pics after clicking here.</p>
+					<a href="L_web.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/WEBpcs6.jpg">
+				<div class="layer">
+					<h3>Pencil Sketches</h3>
+					<p>Small project. For more discription, click here</p>
+					<a href="L_more.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/WEBpcs4.2.jpg">
+				<div class="layer">
+					<h3>Collage Network Architecrure in Packet Tracer</h3>
+					<p>Small project. For more discription, click here</p>
+					<a href="L_net.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/WEBpcs5.jpg">
+				<div class="layer">
+					<h3>AWS Cloud Practitioner</h3>
+					<p>I am in course of being AWS Cloud Practitioner. Nothing much to say.</p>
+					<a href="L_aws.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+				</div>
+			</div>
+		</div>
+		<a href="L_more.html" class="btn">Learn More</a>
+	</div>
+</div>
+
+<!-- ------------------Contact-------------------------- -->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Connect With Me</h1>
+				<p><i class="fa-regular fa-envelope"></i> E-mail: himalayanstallion69@gmail.com</p>
+				<div class="social-icons">
+					<a href="https://www.facebook.com/himalayan.onca"><i class="fa-brands fa-square-facebook"></i></a>
+					<a href=""><i class="fa-brands fa-linkedin"></i></a>
+<!-- 					<a href=""></a>
+					<a href=""></a> -->
+				</div>
+				<a href="images/C.Ve.pdf" download class="btn btn2">Download C.V.</a>
+			</div>
+			<div class="contact-right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="E-mail" name="E-mail" placeholder="Email">
+					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn btn2">Send</button>
+				</form>
+				<span id="msg"></span>
+			</div>
+		</div>
+	</div>
+	<!-- ---------Copyright------------ -->
+	<div class="copyright">
+		<p>Copyright © Deep Khatri. Made by Deep Khatri.</p>
+	</div>
+</div>
+
+<!-- <script src="script.js"></script> -->
+<script>
+
+	$(document).ready(function(){
+	$(window).scroll(function(){
+		if(this.scrollY > 20){
+			$('.navbar').addClass("sticky");
+
+		}else{
+			$('.navbar').removeClass("sticky");			
+
+		}
+	})
+})
+
+var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+	for(tablink of tablinks){
+		tablink.classList.remove("active-link");
+	}
+	for(tabcontent of tabcontents){
+		tabcontent.classList.remove("active-tab");
+	}
+	event.currentTarget.classList.add("active-link");
+	document.getElementById(tabname).classList.add("active-tab");
+}
+
+var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+	sidemenu.style.right = "0";
+}
+function closemenu(){
+	sidemenu.style.right = "-200px";
+}			
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyCcWLdVHxzkQc4IBnQ7ihi_ZV_rrTaw2MjjOdTZMG4Zo1YrYaA1hckwnZlGyBUGKCc/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      	msg.innerHTML = "Thank You! Your Message Has Been Sent."
+      	setTimeout(function(){
+      		msg.innerHTML = ""
+      	},10000)
+      	form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
